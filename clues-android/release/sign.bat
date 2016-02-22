@@ -1,0 +1,2 @@
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore "keys/KGAmazonRelease-key.keystore" WordCluesAmazon-release-unsigned.apk KGAmznR -signedjar WordCluesAmazon-release-signed.apk
+zipalign -v 4 WordCluesAmazon-release-signed.apk WordCluesAmazon-release.apk

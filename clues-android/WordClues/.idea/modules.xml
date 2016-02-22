@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WordClues.iml" filepath="$PROJECT_DIR$/WordClues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCluesAmazon/WordCluesAmazon.iml" filepath="$PROJECT_DIR$/WordCluesAmazon/WordCluesAmazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCluesCore/WordCluesCore.iml" filepath="$PROJECT_DIR$/WordCluesCore/WordCluesCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCluesGoogle/WordCluesGoogle.iml" filepath="$PROJECT_DIR$/WordCluesGoogle/WordCluesGoogle.iml" />
+    </modules>
+  </component>
+</project>
+

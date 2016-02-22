@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>492EA76E-4E78-448E-AA85-BBDB6C6A1030</string>
+	<key>IDESourceControlProjectName</key>
+	<string>com.kindredgames.wordclues</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE2E7A24-F5C3-43D2-8639-D8F469BB7174</key>
+		<string>https://bitbucket.org/kindredgames/word-clues.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>clues-ios/com.kindredgames.wordclues/com.kindredgames.wordclues.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE2E7A24-F5C3-43D2-8639-D8F469BB7174</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/kindredgames/word-clues.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE2E7A24-F5C3-43D2-8639-D8F469BB7174</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE2E7A24-F5C3-43D2-8639-D8F469BB7174</string>
+			<key>IDESourceControlWCCName</key>
+			<string>word-clues</string>
+		</dict>
+	</array>
+</dict>
+</plist>

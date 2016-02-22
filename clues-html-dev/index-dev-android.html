@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="popup" class="popup"></div>
+	<div id="popupCover" class="popupCover"></div>
+	<div id="infoPopup" class="info popup">
+		<div id="rateApp" class="poButton"><h1>Rate Word Clues</h1>Please consider leaving us 5 stars! :-)</div>
+		<div id="feedback" class="poButton"><h1>Leave Feedback</h1>Send us your suggestions</div>
+		<div id="kgTwitter" class="poButton"><h1>Follow Us</h1>Follow @kindredgames on Twitter </div>
+		<div id="kgFacebook" class="poButton"><h1>Friend Us</h1>Friend Kindred Games on Facebook</div>
+	</div>
+	<div id="iapPopup" class="iap popup">
+		<h1>Upgrade to Unlimited Games for just <span id="price">$1.99</span>!</h1>
+		<div id="buy" class="buy">Yes, Unlock All Games</div>
+		<div id="restoreLink" class="restoreLink">Already Purchased?</div>
+	</div>
+	<div id="iapTripleWordScorePopup" class="iapc popup">
+		<h1>10 Triple Word Scores to boost your score!</h1>
+		<div id="tripleWordBuyButton" class="consumable"><span id="tripleWordPrice">Buy</span></div>
+	</div>
+	<div id="iapLifeSaverPopup" class="iapc popup">
+		<h1>Stumped? 10 Life Savers to get you out of trouble!</h1>
+		<div id="lifeSaverBuyButton" class="consumable"><span id="lifeSaverPrice">Buy</span></div>
+	</div>
+	<div id="restorePopup" class="restore popup">
+		<h1>Restore Purchases</h1>
+		<p>If you already upgraded Word Clues, even on another device, tap Restore to upgrade it again for free.</p>
+		<div class="rpButtonWrap" class="rpButtonWrap">
+			<div class="rpButton">Cancel</div>
+			<div id="restoreButton" class="rpButton">Restore</div>
+		</div>
+	</div>
+	<div id="powerOptions" class="power popup">
+		<div id="tripleScore" class="poButton"><h1>Triple Word Score</h1><span id="tsLeft" class="tsLeft"></span> left this game / <span id="tsBanked" class="tsBanked"></span> banked<div id="buyTripleScores" class="buyButton">Get more!</div></div>
+		<div id="doubleScore" class="poButton"><h1>Double Word Score</h1><span id="dsLeft" class="dsLeft"></span> left this game</div>
+		<div id="revealAllClues" class="poButton"><h1>Reveal All Clues</h1><span id="raLeft" class="raLeft"></span> left this game</div>
+		<div id="revealLetter" class="poButton"><h1>Reveal First Letter</h1>-25 pts</div>
+		<div id="revealVowel" class="poButton"><h1>Reveal a Vowel</h1>-25 pts</div>
+		<div id="lifeSaver" class="poButton"><h1>Life Saver</h1>Unlimited per game / <span id="lsBanked" class="lsBanked"></span> banked<div id="buyLifeSavers" class="buyButton">Get more!</div></div>
+	</div>
+	<div id="vowelSelect" class="vowel popup">
+		<h1>Select a Vowel</h1>
+		<div id="vowel_a" class="vowelButton">a</div>
+		<div id="vowel_e" class="vowelButton">e</div>
+		<div id="vowel_i" class="vowelButton">i</div>
+		<div id="vowel_o" class="vowelButton">o</div>
+		<div id="vowel_u" class="vowelButton">u</div>
+	</div>
+	<div id="help" class="help hide">
+		<div id="helpScreen1" class="helpScreen">
+			<div class="helpBack bubble">Go back to Home Screen</div>
+			<div class="helpClues bubble">Up to 5 clues to help you guess the mystery word</div>
+			<div class="helpAnswer bubble">Type in your answer here</div>
+		</div>
+		<div id="helpScreen2" class="helpScreen">
+			<div class="helpPower bubble">Double your score or get more help!</div>
+		</div>
+		<div id="helpScreen3" class="helpScreen">
+			<div class="helpSettings bubble">Open/close Settings</div>
+			<div class="helpBg bubble">Change Background</div>
+			<div class="helpDark bubble">Dark / Light</div>
+			<div class="helpFont bubble">Change Font</div>
+			<div class="helpSound bubble">Sound On/Off</div>
+			<div class="helpHelp bubble">Toggle Help</div>
+		</div>
+  	</div>
+	<div id="home" class="home slide">
+		<div class="rowWrap">
+			<div id="infoButton" class="infoButton"></div>
+			<div id="gameTitle" class="gameTitle">word <span class="clueColor">clues</span></div>
+			<div id="darkButton" class="darkButton"></div>
+		</div>
+			<div class="statsBoard sbWrap">
+				<div class="rowWrap statsBoardHeader">
+					<h1>Stats</h1>
+					<div id="leaderboardButton" class="leaderboardButton">Leaders</div>
+				</div>
+				<div class="statsWrap"><div class="statLabel">Games Played</div><div id="stats_gp" class="statValue">0</div></div>
+				<div class="statsWrap"><div class="statLabel">Total Points</div><div id="stats_tp" class="statValue">0</div></div>
+				<div class="statsWrap"><div class="statLabel">Avg Points per Game</div><div id="stats_ap" class="statValue">0</div></div>
+				<div class="statsWrap"><div class="statLabel">High Score</div><div id="stats_hs" class="statValue">0</div></div>
+				<div class="statsWrap"><div class="statLabel">Longest Streak</div><div id="stats_ls" class="statValue">0</div></div>
+				<div class="statsWrap"><div class="statLabel">Current Streak</div><div id="stats_cs" class="statValue">0</div></div>
+			</div>
+		<div class="rowWrapCenter">
+			<div id="playButton" class="playButton">Play</div>
+		</div>
+	</div>
+	<div id="game" class="game slide hide">
+		<div id="message" class="message"></div>
+		<div id="message2" class="message"></div>
+		<div id="powerButton" class="powerButton"><div class="power button"></div></div>
+		<div id="gameHeader" class="header">
+			<div id="score" class="score">0</div>
+		</div>
+		<div id="answer" class="answer">
+			<div class="guessWrap">
+				<div id="clearPass" class="letter clear off">PASS</div>
+				<div id="guess" class="guess"></div>
+				<div id="del" class="letter del off">delete</div>
+			</div>
+			<div id="guessButtons" class="guessButtons hide">
+				<div class="buttonCol">
+					<div id="guessButtonLow" class="guessButton low hide"><span>Guess for</span><h1>20 pts</h1></div>
+					<div id="buttonDescriptionLow" class="buttonDescription hide">Reveal 3 Letters</div>
+				</div>
+				<div class="buttonCol">
+					<div id="guessButtonMedium" class="guessButton medium hide"><span>Guess for</span><h1>40 pts</h1></div>
+					<div id="buttonDescriptionMedium" class="buttonDescription hide">Reveal 2 Letters</div>
+				</div>
+				<div class="buttonCol">
+					<div id="guessButtonHigh" class="guessButton high hide"><span>Guess for</span><h1>80 pts</h1></div>
+					<div id="buttonDescriptionHigh" class="buttonDescription hide">Reveal 1 Letter</div>
+				</div>
+			</div>
+			<div id="letters" class="letters show">
+				<div class="letterRow">
+					<div id="q" class="letter">q</div>
+					<div id="w" class="letter">w</div>
+					<div id="e" class="letter">e</div>
+					<div id="r" class="letter">r</div>
+					<div id="t" class="letter">t</div>
+					<div id="y" class="letter">y</div>
+					<div id="u" class="letter">u</div>
+					<div id="i" class="letter">i</div>
+					<div id="o" class="letter">o</div>
+					<div id="p" class="letter">p</div>
+				</div>
+				<div class="letterRow">
+					<div id="a" class="letter">a</div>
+					<div id="s" class="letter">s</div>
+					<div id="d" class="letter">d</div>
+					<div id="f" class="letter">f</div>
+					<div id="g" class="letter">g</div>
+					<div id="h" class="letter">h</div>
+					<div id="j" class="letter">j</div>
+					<div id="k" class="letter">k</div>
+					<div id="l" class="letter">l</div>
+				</div>
+				<div class="letterRow">
+					<div id="z" class="letter">z</div>
+					<div id="x" class="letter">x</div>
+					<div id="c" class="letter">c</div>
+					<div id="v" class="letter">v</div>
+					<div id="b" class="letter">b</div>
+					<div id="n" class="letter">n</div>
+					<div id="m" class="letter">m</div>
+				</div>
+			</div>
+			<div id="okButton" class="okButton">OK!</div>
+		</div>
+		<div id="clueBoard" class="clueBoard hide">
+			<div class="questionDetails">
+				<div class="worthWrapper">
+					<div id="worth" class="worth"></div>
+					<div id="multiplier" class="multiplier hide"></div>
+				</div>
+				<div id="answerLength" class="answerLength"></div>
+				<div id="question" class="questionNo"></div>
+			</div>
+			<div class="clues">
+				<div id="clue1" class="clue"></div>
+				<div id="clue2" class="clue"></div>
+				<div id="clue3" class="clue"></div>
+				<div id="clue4" class="clue"></div>
+				<div id="clue5" class="clue"></div>
+			</div>
+			<div class="bonuses">
+				<div id="bonus1" class="bonusPts hide"></div>
+				<div id="bonus2" class="bonusPts hide"></div>
+				<div id="bonus3" class="bonusPts hide"></div>
+				<div id="bonus4" class="bonusPts hide"></div>
+				<div id="bonus5" class="bonusPts hide"></div>
+			</div>
+			<div id="clueCover" class="clueCover"><div id="cluesLeft" class="cluesLeft">4</div><img src="images/kglogo.gif"></div>
+		</div>
+		<div id="settings" class="settings hide">
+			<div id="set_bg" class="bg button"></div>
+			<div id="set_dark" class="contrast button"></div>
+			<div id="set_font" class="font button"></div>
+			<div id="set_sound" class="sound button"></div>
+			<div id="set_help" class="helpToggle button"></div>
+		</div>
+		<div id="settingsButton" class="settingsButton"></div>
+		<div id="backButton" class="backButton"></div>
+	</div>
+	<!--<div id="preloader" class="preload-images"><audio src="data/sounds.mp3"></audio></div>-->
+	<script type='application/javascript' src='js/hammer.js'></script>
+	<!--<script type="application/javascript" src="js/howler.js"></script>-->
+	<script type="application/javascript" src="js/random.js"></script>
+    <script type="application/javascript" src="js/core.js"></script>
+    <script type="application/javascript" src="js/utils.js"></script>
+	<script type="application/javascript" src="js/wc.js"></script>
+    <script type="application/javascript" src="js/wc-android.js"></script>
+    <script type="application/javascript" src="js/wc-amazon.js"></script>
+	<script type="application/javascript" src="js/sounds.js"></script>
+    <script type="application/javascript" src="js/cacheDefaults.js"></script>
+    <script type="application/javascript" src="js/bridge.js"></script>
+    <!--<script type="application/javascript" src="js/mockBridge.js"></script>-->
+</body>
+</html>

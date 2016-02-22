@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7667BBF1185BDCAF00D76CF9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7667BBF0185BDCAF00D76CF9 /* Social.framework */; };
+		7667BBF3185BDCFC00D76CF9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7667BBF2185BDCFC00D76CF9 /* Accounts.framework */; };
+		76A02D29183F908800C53977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D28183F908800C53977 /* Foundation.framework */; };
+		76A02D2B183F908800C53977 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D2A183F908800C53977 /* CoreGraphics.framework */; };
+		76A02D2D183F908800C53977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D2C183F908800C53977 /* UIKit.framework */; };
+		76A02D35183F908800C53977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A02D33183F908800C53977 /* InfoPlist.strings */; };
+		76A02D37183F908800C53977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A02D36183F908800C53977 /* main.m */; };
+		76A02D3B183F908800C53977 /* KGCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A02D3A183F908800C53977 /* KGCAppDelegate.m */; };
+		76A02D40183F908800C53977 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A02D3F183F908800C53977 /* Images.xcassets */; };
+		76A02D47183F908800C53977 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D46183F908800C53977 /* XCTest.framework */; };
+		76A02D48183F908800C53977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D28183F908800C53977 /* Foundation.framework */; };
+		76A02D49183F908800C53977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D2C183F908800C53977 /* UIKit.framework */; };
+		76A02D52183F908800C53977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A02D50183F908800C53977 /* InfoPlist.strings */; };
+		76A02D54183F908800C53977 /* com_kindredgames_wordcluesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A02D53183F908800C53977 /* com_kindredgames_wordcluesTests.m */; };
+		76A02D6018410C8600C53977 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D5F18410C8600C53977 /* GameKit.framework */; };
+		76A02D661841966A00C53977 /* clues-html in Resources */ = {isa = PBXBuildFile; fileRef = 76A02D651841966A00C53977 /* clues-html */; };
+		76A02D6C18419CEA00C53977 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A02D6B18419CEA00C53977 /* StoreKit.framework */; };
+		76E43662186A4161004CE78C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E43661186A4161004CE78C /* SystemConfiguration.framework */; };
+		CCA8102A7A3E31BD81D6B973 /* KGCStorePriceCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA817EC17D9DB3EB3BFC8B7 /* KGCStorePriceCheck.m */; };
+		CCA810542415507E91B2B666 /* KGCCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA81350D34619BE81E52E46 /* KGCCacheFile.m */; };
+		CCA81064E9959E51BDCB3856 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA817B2C077858E72815906 /* Reachability.m */; };
+		CCA811C5EE856A067C7A894F /* KGCWordClues.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA810DE93252A6B88A87AAF /* KGCWordClues.m */; };
+		CCA814EB8662FA02EEB9FD82 /* KGCWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA81C5451423A31AEC89A14 /* KGCWebViewManager.m */; };
+		CCA815FF41BCFDC7F3B16710 /* KGCCacheUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA814EFFB226AA844B877F4 /* KGCCacheUserDefaults.m */; };
+		CCA8169D1E5733034225F1A3 /* KGCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA811786E45AD6F47363207 /* KGCMainViewController.m */; };
+		CCA8175C0A705BB7FE5E3B1C /* initializationImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA81DBBE2035199041E0720 /* initializationImage.png */; };
+		CCA817A1ED77D4D65D3F3EAC /* KGCResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA81787D004598317A39622 /* KGCResponseData.m */; };
+		CCA818B4FE7DD4EBB7DB9473 /* KGCStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA813B2220FFF0117EAE483 /* KGCStoreManager.m */; };
+		CCA81A3BF3CD470327EF9D48 /* clues-html-dev in Resources */ = {isa = PBXBuildFile; fileRef = CCA819DDE346BF1012BBCC28 /* clues-html-dev */; };
+		CCA81AA19382C994DBA050FC /* KGCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA81A618BE71DD4D4ACB65C /* KGCUtils.m */; };
+		CCA81F8C19F6EADC3DABCA06 /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCA819FD803D5A246F470109 /* english.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A02D4B183F908800C53977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A02D1D183F908800C53977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A02D24183F908800C53977;
+			remoteInfo = com.kindredgames.wordclues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7667BBF0185BDCAF00D76CF9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7667BBF2185BDCFC00D76CF9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		76A02D25183F908800C53977 /* wordclues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordclues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A02D28183F908800C53977 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76A02D2A183F908800C53977 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76A02D2C183F908800C53977 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76A02D32183F908800C53977 /* wordclues-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordclues-Info.plist"; sourceTree = "<group>"; };
+		76A02D34183F908800C53977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A02D36183F908800C53977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A02D38183F908800C53977 /* wordclues-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordclues-Prefix.pch"; sourceTree = "<group>"; };
+		76A02D39183F908800C53977 /* KGCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KGCAppDelegate.h; sourceTree = "<group>"; };
+		76A02D3A183F908800C53977 /* KGCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGCAppDelegate.m; sourceTree = "<group>"; };
+		76A02D3F183F908800C53977 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76A02D45183F908800C53977 /* wordcluesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordcluesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A02D46183F908800C53977 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		76A02D4F183F908800C53977 /* wordcluesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordcluesTests-Info.plist"; sourceTree = "<group>"; };
+		76A02D51183F908800C53977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A02D53183F908800C53977 /* com_kindredgames_wordcluesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_kindredgames_wordcluesTests.m; sourceTree = "<group>"; };
+		76A02D5F18410C8600C53977 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		76A02D651841966A00C53977 /* clues-html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "clues-html"; path = "../../clues-html"; sourceTree = "<group>"; };
+		76A02D6B18419CEA00C53977 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		76B86551187797C5005166D2 /* wordclues.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wordclues.entitlements; sourceTree = "<group>"; };
+		76E43661186A4161004CE78C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CCA810343C4AA9E809696CFC /* KGCCacheController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCCacheController.h; sourceTree = "<group>"; };
+		CCA8105FD133859D9D3C3940 /* KGCResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCResponseData.h; sourceTree = "<group>"; };
+		CCA810DE93252A6B88A87AAF /* KGCWordClues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCWordClues.m; sourceTree = "<group>"; };
+		CCA811786E45AD6F47363207 /* KGCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCMainViewController.m; sourceTree = "<group>"; };
+		CCA811C1315EA83A7790D948 /* KGCWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCWebViewManager.h; sourceTree = "<group>"; };
+		CCA811C37BA660A1688F6516 /* KGCGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCGameController.h; sourceTree = "<group>"; };
+		CCA8122274E3159B7D42D7B2 /* KGCWordClues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCWordClues.h; sourceTree = "<group>"; };
+		CCA81350D34619BE81E52E46 /* KGCCacheFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCCacheFile.m; sourceTree = "<group>"; };
+		CCA813B2220FFF0117EAE483 /* KGCStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCStoreManager.m; sourceTree = "<group>"; };
+		CCA814157C46887B67326C33 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CCA814EFFB226AA844B877F4 /* KGCCacheUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCCacheUserDefaults.m; sourceTree = "<group>"; };
+		CCA8151F2297415F29B10D47 /* KGCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCMainViewController.h; sourceTree = "<group>"; };
+		CCA81787D004598317A39622 /* KGCResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCResponseData.m; sourceTree = "<group>"; };
+		CCA817B2C077858E72815906 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CCA817EC17D9DB3EB3BFC8B7 /* KGCStorePriceCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCStorePriceCheck.m; sourceTree = "<group>"; };
+		CCA81871BA0129B994381385 /* KGCDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCDefine.h; sourceTree = "<group>"; };
+		CCA8191C25391318678E8399 /* KGCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCUtils.h; sourceTree = "<group>"; };
+		CCA819A90154FCD0F510AC76 /* KGCCacheFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCCacheFile.h; sourceTree = "<group>"; };
+		CCA819DDE346BF1012BBCC28 /* clues-html-dev */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = "clues-html-dev"; path = "../../clues-html-dev"; sourceTree = "<group>"; };
+		CCA819FD803D5A246F470109 /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english.txt; sourceTree = "<group>"; };
+		CCA81A618BE71DD4D4ACB65C /* KGCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCUtils.m; sourceTree = "<group>"; };
+		CCA81B5D206F60F3C65BE5C9 /* KGCCacheUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCCacheUserDefaults.h; sourceTree = "<group>"; };
+		CCA81BEDFB469FB405380DE3 /* KGCCashier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCCashier.h; sourceTree = "<group>"; };
+		CCA81C5451423A31AEC89A14 /* KGCWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCWebViewManager.m; sourceTree = "<group>"; };
+		CCA81D848D506192F20A67EE /* KGCStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCStoreManager.h; sourceTree = "<group>"; };
+		CCA81DBBE2035199041E0720 /* initializationImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = initializationImage.png; sourceTree = "<group>"; };
+		CCA81FDB2672B36DBFA39429 /* KGCStorePriceCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCStorePriceCheck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A02D22183F908800C53977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E43662186A4161004CE78C /* SystemConfiguration.framework in Frameworks */,
+				7667BBF3185BDCFC00D76CF9 /* Accounts.framework in Frameworks */,
+				7667BBF1185BDCAF00D76CF9 /* Social.framework in Frameworks */,
+				76A02D6C18419CEA00C53977 /* StoreKit.framework in Frameworks */,
+				76A02D6018410C8600C53977 /* GameKit.framework in Frameworks */,
+				76A02D2B183F908800C53977 /* CoreGraphics.framework in Frameworks */,
+				76A02D2D183F908800C53977 /* UIKit.framework in Frameworks */,
+				76A02D29183F908800C53977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A02D42183F908800C53977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A02D47183F908800C53977 /* XCTest.framework in Frameworks */,
+				76A02D49183F908800C53977 /* UIKit.framework in Frameworks */,
+				76A02D48183F908800C53977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A02D1C183F908800C53977 = {
+			isa = PBXGroup;
+			children = (
+				76B86551187797C5005166D2 /* wordclues.entitlements */,
+				76A02D651841966A00C53977 /* clues-html */,
+				76A02D30183F908800C53977 /* com.kindredgames.wordclues */,
+				76A02D4D183F908800C53977 /* com.kindredgames.wordcluesTests */,
+				76A02D27183F908800C53977 /* Frameworks */,
+				76A02D26183F908800C53977 /* Products */,
+				CCA819DDE346BF1012BBCC28 /* clues-html-dev */,
+			);
+			sourceTree = "<group>";
+		};
+		76A02D26183F908800C53977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A02D25183F908800C53977 /* wordclues.app */,
+				76A02D45183F908800C53977 /* wordcluesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A02D27183F908800C53977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E43661186A4161004CE78C /* SystemConfiguration.framework */,
+				7667BBF2185BDCFC00D76CF9 /* Accounts.framework */,
+				7667BBF0185BDCAF00D76CF9 /* Social.framework */,
+				76A02D6B18419CEA00C53977 /* StoreKit.framework */,
+				76A02D5F18410C8600C53977 /* GameKit.framework */,
+				76A02D28183F908800C53977 /* Foundation.framework */,
+				76A02D2A183F908800C53977 /* CoreGraphics.framework */,
+				76A02D2C183F908800C53977 /* UIKit.framework */,
+				76A02D46183F908800C53977 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A02D30183F908800C53977 /* com.kindredgames.wordclues */ = {
+			isa = PBXGroup;
+			children = (
+				76A02D39183F908800C53977 /* KGCAppDelegate.h */,
+				76A02D3A183F908800C53977 /* KGCAppDelegate.m */,
+				76A02D3F183F908800C53977 /* Images.xcassets */,
+				76A02D31183F908800C53977 /* Supporting Files */,
+				CCA8151F2297415F29B10D47 /* KGCMainViewController.h */,
+				CCA811786E45AD6F47363207 /* KGCMainViewController.m */,
+				CCA811C1315EA83A7790D948 /* KGCWebViewManager.h */,
+				CCA81C5451423A31AEC89A14 /* KGCWebViewManager.m */,
+				CCA819A90154FCD0F510AC76 /* KGCCacheFile.h */,
+				CCA81350D34619BE81E52E46 /* KGCCacheFile.m */,
+				CCA8191C25391318678E8399 /* KGCUtils.h */,
+				CCA81A618BE71DD4D4ACB65C /* KGCUtils.m */,
+				CCA81787D004598317A39622 /* KGCResponseData.m */,
+				CCA8105FD133859D9D3C3940 /* KGCResponseData.h */,
+				CCA81DBBE2035199041E0720 /* initializationImage.png */,
+				CCA810DE93252A6B88A87AAF /* KGCWordClues.m */,
+				CCA8122274E3159B7D42D7B2 /* KGCWordClues.h */,
+				CCA811C37BA660A1688F6516 /* KGCGameController.h */,
+				CCA819FD803D5A246F470109 /* english.txt */,
+				CCA810343C4AA9E809696CFC /* KGCCacheController.h */,
+				CCA814EFFB226AA844B877F4 /* KGCCacheUserDefaults.m */,
+				CCA81B5D206F60F3C65BE5C9 /* KGCCacheUserDefaults.h */,
+				CCA813B2220FFF0117EAE483 /* KGCStoreManager.m */,
+				CCA81D848D506192F20A67EE /* KGCStoreManager.h */,
+				CCA81BEDFB469FB405380DE3 /* KGCCashier.h */,
+				CCA814157C46887B67326C33 /* Reachability.h */,
+				CCA817B2C077858E72815906 /* Reachability.m */,
+				CCA81871BA0129B994381385 /* KGCDefine.h */,
+				CCA817EC17D9DB3EB3BFC8B7 /* KGCStorePriceCheck.m */,
+				CCA81FDB2672B36DBFA39429 /* KGCStorePriceCheck.h */,
+			);
+			path = com.kindredgames.wordclues;
+			sourceTree = "<group>";
+		};
+		76A02D31183F908800C53977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A02D32183F908800C53977 /* wordclues-Info.plist */,
+				76A02D33183F908800C53977 /* InfoPlist.strings */,
+				76A02D36183F908800C53977 /* main.m */,
+				76A02D38183F908800C53977 /* wordclues-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A02D4D183F908800C53977 /* com.kindredgames.wordcluesTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A02D53183F908800C53977 /* com_kindredgames_wordcluesTests.m */,
+				76A02D4E183F908800C53977 /* Supporting Files */,
+			);
+			path = com.kindredgames.wordcluesTests;
+			sourceTree = "<group>";
+		};
+		76A02D4E183F908800C53977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A02D4F183F908800C53977 /* wordcluesTests-Info.plist */,
+				76A02D50183F908800C53977 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A02D24183F908800C53977 /* wordclues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A02D57183F908800C53977 /* Build configuration list for PBXNativeTarget "wordclues" */;
+			buildPhases = (
+				76A02D21183F908800C53977 /* Sources */,
+				76A02D22183F908800C53977 /* Frameworks */,
+				76A02D23183F908800C53977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordclues;
+			productName = com.kindredgames.wordclues;
+			productReference = 76A02D25183F908800C53977 /* wordclues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A02D44183F908800C53977 /* wordcluesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A02D5A183F908800C53977 /* Build configuration list for PBXNativeTarget "wordcluesTests" */;
+			buildPhases = (
+				76A02D41183F908800C53977 /* Sources */,
+				76A02D42183F908800C53977 /* Frameworks */,
+				76A02D43183F908800C53977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A02D4C183F908800C53977 /* PBXTargetDependency */,
+			);
+			name = wordcluesTests;
+			productName = com.kindredgames.wordcluesTests;
+			productReference = 76A02D45183F908800C53977 /* wordcluesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A02D1D183F908800C53977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KGC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kindred Games Inc.";
+				TargetAttributes = {
+					76A02D24183F908800C53977 = {
+						DevelopmentTeam = U2HH4M4QGP;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					76A02D44183F908800C53977 = {
+						TestTargetID = 76A02D24183F908800C53977 /* wordclues */;
+					};
+				};
+			};
+			buildConfigurationList = 76A02D20183F908800C53977 /* Build configuration list for PBXProject "WordClues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76A02D1C183F908800C53977;
+			productRefGroup = 76A02D26183F908800C53977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A02D24183F908800C53977 /* wordclues */,
+				76A02D44183F908800C53977 /* wordcluesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A02D23183F908800C53977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A02D35183F908800C53977 /* InfoPlist.strings in Resources */,
+				76A02D40183F908800C53977 /* Images.xcassets in Resources */,
+				76A02D661841966A00C53977 /* clues-html in Resources */,
+				CCA8175C0A705BB7FE5E3B1C /* initializationImage.png in Resources */,
+				CCA81F8C19F6EADC3DABCA06 /* english.txt in Resources */,
+				CCA81A3BF3CD470327EF9D48 /* clues-html-dev in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A02D43183F908800C53977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A02D52183F908800C53977 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A02D21183F908800C53977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A02D3B183F908800C53977 /* KGCAppDelegate.m in Sources */,
+				76A02D37183F908800C53977 /* main.m in Sources */,
+				CCA8169D1E5733034225F1A3 /* KGCMainViewController.m in Sources */,
+				CCA814EB8662FA02EEB9FD82 /* KGCWebViewManager.m in Sources */,
+				CCA810542415507E91B2B666 /* KGCCacheFile.m in Sources */,
+				CCA81AA19382C994DBA050FC /* KGCUtils.m in Sources */,
+				CCA817A1ED77D4D65D3F3EAC /* KGCResponseData.m in Sources */,
+				CCA811C5EE856A067C7A894F /* KGCWordClues.m in Sources */,
+				CCA815FF41BCFDC7F3B16710 /* KGCCacheUserDefaults.m in Sources */,
+				CCA818B4FE7DD4EBB7DB9473 /* KGCStoreManager.m in Sources */,
+				CCA81064E9959E51BDCB3856 /* Reachability.m in Sources */,
+				CCA8102A7A3E31BD81D6B973 /* KGCStorePriceCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A02D41183F908800C53977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A02D54183F908800C53977 /* com_kindredgames_wordcluesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A02D4C183F908800C53977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A02D24183F908800C53977 /* wordclues */;
+			targetProxy = 76A02D4B183F908800C53977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A02D33183F908800C53977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A02D34183F908800C53977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76A02D50183F908800C53977 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A02D51183F908800C53977 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A02D55183F908800C53977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A02D56183F908800C53977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A02D58183F908800C53977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "com.kindredgames.wordclues/wordclues-Prefix.pch";
+				INFOPLIST_FILE = "com.kindredgames.wordclues/wordclues-Info.plist";
+				"OTHER_CFLAGS[arch=*]" = "-DDEBUG_BUILD";
+				PRODUCT_NAME = wordclues;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76A02D59183F908800C53977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "com.kindredgames.wordclues/wordclues-Prefix.pch";
+				INFOPLIST_FILE = "com.kindredgames.wordclues/wordclues-Info.plist";
+				PRODUCT_NAME = wordclues;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76A02D5B183F908800C53977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/com.kindredgames.wordclues.app/com.kindredgames.wordclues";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "com.kindredgames.wordclues/com.kindredgames.wordclues-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "com.kindredgames.wordcluesTests/wordcluesTests-Info.plist";
+				PRODUCT_NAME = wordcluesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		76A02D5C183F908800C53977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/com.kindredgames.wordclues.app/com.kindredgames.wordclues";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "com.kindredgames.wordclues/com.kindredgames.wordclues-Prefix.pch";
+				INFOPLIST_FILE = "com.kindredgames.wordcluesTests/wordcluesTests-Info.plist";
+				PRODUCT_NAME = wordcluesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A02D20183F908800C53977 /* Build configuration list for PBXProject "WordClues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A02D55183F908800C53977 /* Debug */,
+				76A02D56183F908800C53977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A02D57183F908800C53977 /* Build configuration list for PBXNativeTarget "wordclues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A02D58183F908800C53977 /* Debug */,
+				76A02D59183F908800C53977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A02D5A183F908800C53977 /* Build configuration list for PBXNativeTarget "wordcluesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A02D5B183F908800C53977 /* Debug */,
+				76A02D5C183F908800C53977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A02D1D183F908800C53977 /* Project object */;
+}

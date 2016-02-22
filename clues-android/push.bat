@@ -1,0 +1,1 @@
+adb push "WordClues/WordCluesAmazon/WordCluesAmazon.apk" "/sdcard/Download/WordCluesAmazon.apk"
