@@ -5,4 +5,10 @@ This was the first game created by my company, Kindred Games.  Since I am in the
 
 Word Clues is written in HTML, LESS compiled to CSS, and pure JavaScript (no jQuery, Angular, React, or any other framework).  It is a hybrid app, so the code also contains iOS and Android shells, which run the game in their corresponding Web Views.
 
+![AnimatedGIF 1](animated-gifs/video1.gif)
+
+![AnimatedGIF 2](animated-gifs/video2.gif)
+
+![AnimatedGIF 3](animated-gifs/video3.gif)
+
 http://kindredgames.com
